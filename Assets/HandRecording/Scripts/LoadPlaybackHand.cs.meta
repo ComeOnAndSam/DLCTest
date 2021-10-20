@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4dec7428d708c44291b6447afee279c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - recordButton: {instanceID: 0}
+  - playbackButton: {instanceID: 0}
+  - leftHandObject: {instanceID: 0}
+  - rightHandObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
