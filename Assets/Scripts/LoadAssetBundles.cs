@@ -7,7 +7,6 @@ public class LoadAssetBundles : MonoBehaviour
 {
     public void LoadAssets()
     {
-        Debug.Log(Application.streamingAssetsPath);
         var bundleTest
             = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, "bundletest"));
         var sceneBundle
