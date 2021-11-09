@@ -207,10 +207,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1374712815}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+      - m_Target: {fileID: 1374712820}
+        m_TargetAssemblyTypeName: LoadAdressables, Assembly-CSharp
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &181177706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -342,8 +342,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1374712820}
-        m_TargetAssemblyTypeName: LoadAssetBundles, Assembly-CSharp
-        m_MethodName: LoadAssets
+        m_TargetAssemblyTypeName: LoadAdressables, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -808,7 +808,6 @@ GameObject:
   - component: {fileID: 1374712818}
   - component: {fileID: 1374712817}
   - component: {fileID: 1374712816}
-  - component: {fileID: 1374712815}
   - component: {fileID: 1374712820}
   m_Layer: 5
   m_Name: Canvas
@@ -817,18 +816,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1374712815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374712814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8691440fed2338a479ef3b314e4451f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1374712816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,9 +909,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1374712814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219e2d86ead04aa4a962b174124d1fcf, type: 3}
+  m_Script: {fileID: 11500000, guid: a5560e17f9917504ba7f53824f836a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene:
+    m_AssetGUID: f7108fc0ef0de77439fbf5d76cc6da27
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &1933872647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,8 +1081,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1374712815}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+      - m_Target: {fileID: 1374712820}
+        m_TargetAssemblyTypeName: LoadAdressables, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:

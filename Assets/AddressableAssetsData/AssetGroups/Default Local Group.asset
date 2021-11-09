@@ -17,10 +17,11 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 74bab8473f649e942b2191af64f5e0bf
   m_SerializeEntries:
-  - m_GUID: e912c5f80a64c4344af26d44ee08c95c
-    m_Address: Assets/HandRecording/Prefabs/PlaybackHandR.prefab
+  - m_GUID: 3f09d4682f61be549bc8988227b03119
+    m_Address: Assets/DLC Assets
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - DLC
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7e9c0ac15e4b09c43a56aad270c934cf, type: 2}
   m_SchemaSet:
